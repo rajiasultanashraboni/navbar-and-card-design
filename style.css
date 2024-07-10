@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    padding:30px 100px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 10px 24px 10px 24px;
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.my-next-target{
+    width: 1140px;
+    height: 866px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.text-content{
+    width: 946px;
+    height: 113px;
+    border: 2px solid red;
+}
